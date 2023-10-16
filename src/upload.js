@@ -1,3 +1,10 @@
+// Example code to show how to upload images using an unsigned preset
+// and a form. 
+
+// Note, for security reasons, the upload preset used in this example 
+// sets the access control mode of the uploaded assets to restricted, 
+// so the URLs returned in the response will return 404 errors.
+
 const url = "https://api.cloudinary.com/v1_1/hzxyensd5/image/upload";
 const form = document.querySelector("form");
 
